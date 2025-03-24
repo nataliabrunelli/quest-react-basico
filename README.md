@@ -1,12 +1,22 @@
-# React + Vite
+# Quest de React.js Básico - Trabalhando com Props
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este desafio tem como objetivo aprofundar o uso de **props** no React, explorando como elas são passadas entre componentes pai e filho.
 
-Currently, two official plugins are available:
+O projeto demonstra que as **props** podem:
+- Ser valores fixos (parecido com atributos HTML);
+- Ser funções que são executadas em resposta a eventos, permitindo comunicação entre os componentes.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Além disso, este projeto foi construído utilizando **Vite**, garantindo um ambiente de desenvolvimento rápido e eficiente.
 
-## Expanding the ESLint configuration
+<br>
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Tecnologias Utilizadas:
+- React.js
+- Vite
+
+
+## Como executar o projeto:
+1. Clone o repositório para sua máquina;
+2. Abra-o e instale suas dependências com `npm install`;
+3. Inicialize o servidor de desenvolvimento com `npm run dev`
+4. Acesse o projeto no navegador através do link gerado pelo servidor local.
